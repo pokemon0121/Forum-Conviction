@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Welcome to Forum Conviction</title>
+  
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel='stylesheet prefetch' href='https://storage.googleapis.com/code.getmdl.io/1.0.6/material.indigo-pink.min.css'>
+<link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.5/material.blue-pink.min.css" />
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+  <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.1/morris.css'>
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/metisMenu/2.5.2/metisMenu.css'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://code.getmdl.io/1.1.3/material.orange-indigo.min.css">
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+  <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+<div id="wrapper" class="active">
+  <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+      <a class="navbar-brand">Forum Conviction v1.0</a>
+    </div>
+    <!-- /.navbar-header -->
+    <ul class="nav navbar-top-links navbar-right">
+        <li style="top: 10px; padding-right: 15px;"><div id="user-pic" style="height: 28px; width: 28px; background-size: 28px; border-radius: 24px;"></div></li>
+        <li style="padding-top: 7px; padding-bottom: 7px;"><div id="user-name" class="mdl-color-text--black"></div></li>
+        <li style="padding-top: 7px; padding-bottom: 7px;"><button id="sign-out" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-color-text--black">
+          Sign-out
+        </button></li>
+        <li style="padding-top: 7px; padding-bottom: 7px;"><button id="sign-in" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-color-text--black">
+          <i class="material-icons">account_circle</i>Sign-in with Google
+        </button></li>
+    </ul>
+
+    <div class="navbar-default sidebar" role="navigation">
+      <div class="sidebar-nav">
+        <ul class="nav" id="nice-menu">
+          <li class="sidebar-brand">
+            <div class="ttdiv" style="text-align: center">
+              <span class="ttspan-fill">Menu</span>
+            </div>
+          </li>
+        </ul>
+        <ul class="nav" id="side-menu">
+          <li id="home" class="topic-botton">
+            <a href="#"><i class="fa fa-home fa-fw" aria-hidden="true"></i> <span class="ttspan-fill">Home</span></a>
+          </li>
+          <li id="sg-231-7" class="topic-botton">
+            <a href="#"><i class="fa fa-book fa-fw" aria-hidden="true"></i> <span class="ttspan-fill">Studio Green 231-7</span></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa fa-fire fa-fw" aria-hidden="true"></i> <span class="ttspan-fill">Popular</span><span class="fa arrow ttspan-fill"></span></a>
+            <ul class="nav nav-second-level">
+              <li id="guozi" class="topic-botton">
+                <a href="#"><i class="fa fa-bolt fa-fw" aria-hidden="true"></i> Guozi</a>
+              </li>
+              <li id="other" class="topic-botton">
+                <a href="#"><i class="fa fa-bolt fa-fw" aria-hidden="true"></i> Other</a>
+              </li>
+            </ul>
+            <!-- /.nav-second-level -->
+          </li>
+          <li id="google-firebase" class="topic-botton">
+            <a href="#"><i class="fa fa-bullseye fa-fw" aria-hidden="true"></i> <span class="ttspan-fill">Google Firebase</span></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa fa-puzzle-piece fa-fw" aria-hidden="true"></i> <span class="ttspan-fill">Entertainment</span><span class="fa arrow ttspan-fill"></span></a>
+            <ul class="nav nav-second-level">
+              <li id="sports" class="topic-botton">
+                <a href="#"><i class="fa fa-futbol-o fa-fw" aria-hidden="true"></i> Sports</a>
+              </li>
+              <li id="music" class="topic-botton">
+                <a href="#"><i class="fa fa-music fa-fw" aria-hidden="true"></i> Music</a>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-gamepad fa-fw" aria-hidden="true"></i> Game<span class="fa arrow"></span></a>
+                <ul class="nav nav-third-level">
+                  <li id="dota-2" class="topic-botton">
+                    <a href="#"><i class="fa fa-gamepad fa-fw" aria-hidden="true"></i> Dota 2</a>
+                  </li>
+                  <li id="monster-hunter" class="topic-botton">
+                    <a href="#"><i class="fa fa-gamepad fa-fw" aria-hidden="true"></i> Monster Hunter</a>
+                  </li>
+                  <li id="pokemon" class="topic-botton">
+                    <a href="#"><i class="fa fa-gamepad fa-fw" aria-hidden="true"></i> Pokemon</a>
+                  </li>
+                </ul>
+                <!-- /.nav-third-level -->
+              </li>
+            </ul>
+            <!-- /.nav-second-level -->
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div id="page-wrapper" style="background-color: #f8f8f8">
+    <div class="row">
+      <div class="col-lg-12">
+        <h1 id="page-header" class="page-header">Home</h1>
+      </div>
+      <!-- /.col-lg-12 -->
+    </div>
+    <!-- /.row -->
+    <!-- Responsive table starts here -->
+  <!-- For correct display on small screens you must add 'data-title' to each 'td' in your table -->
+  <div class="table-responsive-vertical shadow-z-1">
+  <!-- Table starts here -->
+  <table id="message-box" class="table table-hover table-striped">
+      <tbody></tbody>
+    </table>
+  
+  <div id="input-message" style="display: none;">
+          <form id="message-form">
+            <div id="input-holder" class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+              <input id="input-box" class="mdl-textfield__input" type="text" id="message">
+              <label class="mdl-textfield__label" for="message">Message...</label>
+            </div>
+            <button id="submit" disabled class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
+              Send
+            </button>
+          </form>
+          <form id="image-form" action="#">
+            <input id="mediaCapture" type="file" accept="image/*,capture=camera">
+            <button id="submitImage" disabled title="Add an image" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-color--amber-400 mdl-color-text--white">
+              <i class="material-icons">image</i>
+            </button>
+          </form>
+  </div> <!-- input-message -->
+  
+</div> <!-- table div -->
+<div id="home-content" class="row">
+      <div class="col-lg-12">
+        <p>[2017-04-19 Fixed] : Long message will not cause an overflow now.</p>
+        <p>[2017-04-19 Updated] : Now you can edit the messages you sent before!</p>
+        <p>[2017-04-19 Updated] : Now you can recall message!</p>
+        <p>[2017-04-19 Fixed] : New message from other topics will not show in your current topic.</p>
+        <p>[2017-04-19 Update] : Removed toggle function in side menu.</p>
+        <p>[2017-04-18 Notification] : Recall and edit function has not been implemented yet. Be cautious.</p>
+        <p>[2017-04-18 Deployed] : Forum Conviction v1.0 deployed.
+      </div>
+      <!-- /.col-lg-12 -->
+    </div>
+    <!-- /.row -->
+  </div> <!-- table -->
+</div> <!-- page wrapper -->
+</div> <!-- wrapper -->
+<div id="snackbar"></div>
+
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="https://storage.googleapis.com/code.getmdl.io/1.0.5/material.min.js"></script>
+<script src="https://code.jquery.com/ui/1.11.1/jquery-ui.min.js"></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/dialog-polyfill/0.4.2/dialog-polyfill.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/metisMenu/2.5.2/metisMenu.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/raphael/2.2.7/raphael.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.1/morris.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
+<script src="https://www.gstatic.com/firebasejs/3.7.8/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyCwpKP0AnL6aa-3OdkP35lF0KjAjyYY0oY",
+    authDomain: "kickstart-37a60.firebaseapp.com",
+    databaseURL: "https://kickstart-37a60.firebaseio.com",
+    projectId: "kickstart-37a60",
+    storageBucket: "kickstart-37a60.appspot.com",
+    messagingSenderId: "54553994835"
+  };
+  firebase.initializeApp(config);
+</script>
+  <script src="js/index.js"></script>
+</body>
+</html>
